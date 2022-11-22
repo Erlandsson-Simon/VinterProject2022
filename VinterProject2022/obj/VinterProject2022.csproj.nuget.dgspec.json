@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\erlandsson.simon\\Documents\\Programering_2\\VinterProject2022\\VinterProject2022\\VinterProject2022.csproj": {}
+    "C:\\Users\\erlandsson.simon\\Documents\\Programering_2\\VinterProject2022\\VinterProject2022\\VinterProject2022.csproj": {}
   },
   "projects": {
-    "c:\\Users\\erlandsson.simon\\Documents\\Programering_2\\VinterProject2022\\VinterProject2022\\VinterProject2022.csproj": {
+    "C:\\Users\\erlandsson.simon\\Documents\\Programering_2\\VinterProject2022\\VinterProject2022\\VinterProject2022.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\erlandsson.simon\\Documents\\Programering_2\\VinterProject2022\\VinterProject2022\\VinterProject2022.csproj",
+        "projectUniqueName": "C:\\Users\\erlandsson.simon\\Documents\\Programering_2\\VinterProject2022\\VinterProject2022\\VinterProject2022.csproj",
         "projectName": "VinterProject2022",
-        "projectPath": "c:\\Users\\erlandsson.simon\\Documents\\Programering_2\\VinterProject2022\\VinterProject2022\\VinterProject2022.csproj",
+        "projectPath": "C:\\Users\\erlandsson.simon\\Documents\\Programering_2\\VinterProject2022\\VinterProject2022\\VinterProject2022.csproj",
         "packagesPath": "C:\\Users\\erlandsson.simon\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\erlandsson.simon\\Documents\\Programering_2\\VinterProject2022\\VinterProject2022\\obj\\",
+        "outputPath": "C:\\Users\\erlandsson.simon\\Documents\\Programering_2\\VinterProject2022\\VinterProject2022\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erlandsson.simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Raylib-cs": {
+              "target": "Package",
+              "version": "[4.2.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
