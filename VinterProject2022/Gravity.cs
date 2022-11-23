@@ -15,14 +15,9 @@ public class Gravity
         allGravities.Add(this);
     }
 
-
-
     public void Update()
     {
-        if (rect.x + rect.width >= screenHeight)
-        {
-
-        }
+        // gravityCheck(gravity);
         rect.x += movement.X;
         rect.y += movement.Y;
 
@@ -49,4 +44,18 @@ public class Gravity
             g.Draw();
         }
     }
+
+    // public static int gravityCheck(int gravity)
+    // {
+    //     //screenheight fixa
+    //     if (rect.y + rect.width < 800)
+    //     {
+    //         gravity = 5;
+    //     } else
+    //     {
+    //         gravity = 0;
+    //     }
+        
+    //     return gravity;
+    // }
 }

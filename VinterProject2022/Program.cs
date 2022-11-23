@@ -33,4 +33,6 @@ while (!R.WindowShouldClose())
 
     R.EndMode2D();
     R.EndDrawing();
+    
+    // Console.WriteLine(Gravity.gravityCheck(gravity));
 }
