@@ -16,14 +16,20 @@ camera.target = new Vector2(screenWidth / 2, screenHeight / 2);
 camera.zoom = 1f;
 camera.offset = new Vector2(screenWidth / 2, screenHeight / 2);
 
+new Player();
+
+List<Rectangle> platforms = new List<Rectangle>();
 
 
 while (!R.WindowShouldClose())
 {
+    Gravity.UpdateAll();
+
     R.BeginDrawing();
     R.BeginMode2D(camera);
     R.ClearBackground(Color.WHITE);
 
+    Gravity.Drawall();
 
     R.EndMode2D();
     R.EndDrawing();
