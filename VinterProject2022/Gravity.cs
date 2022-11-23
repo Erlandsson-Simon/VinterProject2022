@@ -19,6 +19,10 @@ public class Gravity
 
     public void Update()
     {
+        if (rect.x + rect.width >= screenHeight)
+        {
+
+        }
         rect.x += movement.X;
         rect.y += movement.Y;
 

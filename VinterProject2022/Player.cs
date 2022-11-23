@@ -2,8 +2,9 @@ public class Player : Gravity
 {
     private Vector2 startingPos = new(960, 540);
     private int width = 50;
-    private int height = 50;
 
+    public int height = 50;
+    
     public Color color { get; set; } = Color.BLACK;
 
 
